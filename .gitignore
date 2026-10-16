@@ -1,0 +1,41 @@
+# Pertemuan 2, 3, 5, and 6: publish source code only.
+#
+# Ignore every file first, keep directories traversable, then allow only
+# source code and the project/configuration files required to build it.
+
+/Pertemuan 2/**
+!/Pertemuan 2/**/
+!/Pertemuan 2/**/*.cs
+!/Pertemuan 2/**/*.csproj
+!/Pertemuan 2/**/*.xaml
+!/Pertemuan 2/**/appsettings.json
+!/Pertemuan 2/**/*.sql
+
+/Pertemuan 3/**
+!/Pertemuan 3/**/
+!/Pertemuan 3/**/*.cs
+!/Pertemuan 3/**/*.csproj
+!/Pertemuan 3/**/*.xaml
+!/Pertemuan 3/**/appsettings.json
+!/Pertemuan 3/**/*.sql
+
+/Pertemuan 5/**
+!/Pertemuan 5/**/
+!/Pertemuan 5/**/*.cs
+!/Pertemuan 5/**/*.csproj
+!/Pertemuan 5/**/*.xaml
+!/Pertemuan 5/**/appsettings.json
+!/Pertemuan 5/**/*.sql
+
+/Pertemuan 6/**
+!/Pertemuan 6/**/
+!/Pertemuan 6/**/*.cs
+!/Pertemuan 6/**/*.csproj
+!/Pertemuan 6/**/*.xaml
+!/Pertemuan 6/**/appsettings.json
+!/Pertemuan 6/**/*.sql
+
+# Never publish generated build and IDE output, including generated .cs files.
+**/[Bb]in/
+**/[Oo]bj/
+**/.vs/
